@@ -11,7 +11,7 @@ namespace MvcMovie.Controllers
     {
         public string Index()
         {
-            return "This is my defoult action...";
+            return View();
         }
 
         public string Welcome(string name, int ID = 1)
